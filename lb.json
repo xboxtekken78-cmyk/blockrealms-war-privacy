@@ -1,1 +1,1 @@
-{"endpoint": "", "enabled": false}
+{"endpoint": "https://blockrealms-lb.blockrealms.workers.dev", "enabled": true}
