@@ -4,52 +4,68 @@
 **Paket / Package:** com.cennetolsun.blokcini  
 **Geliştirici / Developer:** Cennetolsun  
 **İletişim / Contact:** vtoprak78@gmail.com  
-**Son güncelleme / Last updated:** 10 Ekim 2026 / October 10, 2026
+**Son güncelleme / Last updated:** 10 Ekim 2026 / October 10, 2026 (v0.6.0 – Dünya Rekorları / World Records)
 
 ---
 
 ## Türkçe
 
-BlockRealms War, çevrimdışı oynanan bir blok bulmaca oyunudur. Gizliliğinize saygı duyuyoruz; bu politika uygulamanın hangi verileri işlediğini açıklar.
+BlockRealms War bir blok bulmaca oyunudur. Oyun internetsiz oynanabilir; yalnızca isteğe bağlı "Dünya Rekorları" listesi için internet kullanılır. Bu politika uygulamanın hangi verileri işlediğini açıklar.
 
-**Toplanan kişisel veri yoktur.** Uygulama adınızı, e-posta adresinizi, konumunuzu, rehberinizi, fotoğraflarınızı, cihaz kimliklerinizi veya başka herhangi bir kişisel veriyi toplamaz, saklamaz ya da paylaşmaz.
+**Dünya Rekorları (liderlik tablosu).** Bir kişisel rekor kırdığınızda uygulama, liderlik tablosu sunucumuza yalnızca şu verileri gönderir:
+- seçtiğiniz **takma ad** (3-16 karakter),
+- seçtiğiniz **ülke** (bayrak),
+- **skorunuz** ve bu oyunun hamle sayısı ile süresi (hile kontrolü için),
+- uygulama ilk açıldığında üretilen **rastgele bir cihaz kimliği** (kişisel bilgi içermez; telefonunuzun donanım kimliği veya reklam kimliği değildir).
 
-**İnternet bağlantısı kullanılmaz.** Uygulama internet izni istemez ve hiçbir sunucuya veri göndermez.
+Takma adınız, ülkeniz ve skorunuz **herkese açık** olarak liderlik tablosunda gösterilir. Gerçek adınızı takma ad olarak kullanmamanızı öneririz. Rastgele cihaz kimliği ve hamle/süre bilgisi herkese gösterilmez. Sunucu, kötüye kullanımı önlemek için IP adresinizden türetilen tek yönlü (hash) bir değeri kısa süreli hız sınırlaması için kullanır; IP adresinizin kendisi saklanmaz. Sunucu Cloudflare altyapısında çalışır.
 
-**İzinler.** Uygulamanın kullandığı tek izin, oyun içi titreşim (dokunsal geri bildirim) için **VIBRATE** iznidir. Titreşim, oyun ayarlarından kapatılabilir.
+**Bunun dışında kişisel veri toplanmaz.** Uygulama adınızı, e-posta adresinizi, konumunuzu, rehberinizi, fotoğraflarınızı, reklam kimliğinizi veya başka bir kişisel veriyi toplamaz.
 
-**Reklam, hesap ve analiz yoktur.** Uygulamada reklam, reklam SDK'sı, kullanıcı hesabı, giriş sistemi, analiz (analytics) veya izleme aracı bulunmaz.
+**İzinler.** INTERNET (yalnızca Dünya Rekorları için) ve VIBRATE (oyun içi titreşim; ayarlardan kapatılabilir).
 
-**Yerel kayıt verileri.** En yüksek skor, oyun ilerlemesi, seçilen karakter ve ayarlar (ses, titreşim, ara sahneler) yalnızca cihazınızda saklanır. Bu veriler cihazınızdan dışarı gönderilmez ve uygulama kaldırıldığında silinir.
+**Reklam, hesap ve analiz yoktur.** Uygulamada reklam, reklam SDK'sı, kullanıcı hesabı/giriş, analiz (analytics) veya izleme aracı bulunmaz.
 
-**Üçüncü taraflarla paylaşım.** Hiçbir veri üçüncü taraflarla paylaşılmaz veya satılmaz.
+**Yerel kayıt verileri.** Skorlar, oyun ilerlemesi, seçilen karakter, takma ad, ülke ve ayarlar cihazınızda saklanır ve uygulama kaldırıldığında silinir.
 
-**Çocuklar.** Uygulama kişisel veri toplamadığı için çocuklardan da veri toplanmaz.
+**Paylaşım ve satış.** Veriler satılmaz ve üçüncü taraflarla paylaşılmaz (liderlik tablosunda herkese açık gösterilen takma ad, ülke ve skor hariç).
+
+**Saklama ve silme.** Liderlik tablosu kayıtları oyun yayında olduğu sürece saklanır. Kaydınızın silinmesini istiyorsanız takma adınızı ve ülkenizi belirterek vtoprak78@gmail.com adresine yazın; kayıt silinir. Uygunsuz takma adlar uyarı yapılmadan kaldırılabilir.
+
+**Çocuklar.** Uygulama çocuklardan bilerek kişisel veri toplamaz; takma ad olarak gerçek ad kullanılmamalıdır.
 
 **Değişiklikler.** Bu politika güncellenirse yeni sürüm bu sayfada yayımlanır ve yukarıdaki tarih güncellenir.
 
-**İletişim.** Sorularınız için: vtoprak78@gmail.com
+**İletişim.** vtoprak78@gmail.com
 
 ---
 
 ## English
 
-BlockRealms War is a block puzzle game that is played offline. We respect your privacy; this policy explains what data the app handles.
+BlockRealms War is a block puzzle game. The game can be played without internet; the internet is used only for the optional "World Records" list. This policy explains what data the app handles.
 
-**No personal data is collected.** The app does not collect, store or share your name, email address, location, contacts, photos, device identifiers or any other personal data.
+**World Records (leaderboard).** When you set a new personal best, the app sends only the following to our leaderboard server:
+- the **nickname** you chose (3-16 characters),
+- the **country** (flag) you chose,
+- your **score**, plus the number of moves and the duration of that game (for cheat checks),
+- a **random device ID** generated when the app is first opened (it contains no personal information and is not your phone's hardware ID or advertising ID).
 
-**No internet connection is used.** The app does not request the internet permission and does not send any data to any server.
+Your nickname, country and score are shown **publicly** on the leaderboard. We recommend not using your real name as a nickname. The random device ID and the move/duration data are not shown publicly. To prevent abuse, the server uses a one-way hash derived from your IP address for short-term rate limiting; the IP address itself is not stored. The server runs on Cloudflare's infrastructure.
 
-**Permissions.** The only permission the app uses is **VIBRATE**, for in-game haptic feedback. Vibration can be turned off in the game settings.
+**No other personal data is collected.** The app does not collect your name, email address, location, contacts, photos, advertising ID or any other personal data.
+
+**Permissions.** INTERNET (only for World Records) and VIBRATE (in-game haptics; can be turned off in settings).
 
 **No ads, accounts or analytics.** The app contains no advertising, no ad SDKs, no user accounts or sign-in, and no analytics or tracking tools.
 
-**Local save data.** Your best score, game progress, chosen character and settings (sound, vibration, cutscenes) are stored only on your device. This data never leaves your device and is deleted when you uninstall the app.
+**Local save data.** Scores, game progress, chosen character, nickname, country and settings are stored on your device and are deleted when you uninstall the app.
 
-**Sharing with third parties.** No data is shared with or sold to third parties.
+**Sharing and sale.** Data is not sold and not shared with third parties (other than the nickname, country and score shown publicly on the leaderboard).
 
-**Children.** Because the app collects no personal data, it collects no data from children either.
+**Retention and deletion.** Leaderboard entries are kept while the game is available. To have your entry deleted, email vtoprak78@gmail.com with your nickname and country and it will be removed. Inappropriate nicknames may be removed without notice.
+
+**Children.** The app does not knowingly collect personal data from children; real names should not be used as nicknames.
 
 **Changes.** If this policy is updated, the new version will be published on this page and the date above will be updated.
 
-**Contact.** For any questions: vtoprak78@gmail.com
+**Contact.** vtoprak78@gmail.com
